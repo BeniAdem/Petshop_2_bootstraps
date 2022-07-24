@@ -1,0 +1,247 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.logo{
+    height: 20px;
+    margin: 0;
+    margin-right: 10px;
+    padding: 0;
+}
+.navbar .form-control{
+    width: 200px !important;
+}
+
+.btn-group{
+    margin: 5px 0;
+}
+
+.btn-group .btn-danger{
+    background-color: #88549e ;
+}
+.btn-group .btn-danger:hover{
+    background-color: #fff ;
+    color: #000;
+}
+
+.nav-item:hover .nav-link{
+    color: #fff;
+}
+
+.dropdown-item:hover{
+    background-color: #000;
+    color: #fff;
+}
+
+
+.carousel-item > img{
+    object-fit: cover;
+    height: 80vh;
+    width: 100%;
+}
+.carousel-caption > h5{
+    font-size: 40px;
+    font-weight: 700;
+    text-shadow:
+    2px  2px 0 #000,
+   -1px -1px 0 #000,  
+    1px -1px 0 #000,
+   -1px  1px 0 #000,
+    1px  1px 0 #000;
+    padding: 0;
+
+  }
+  .carousel-caption > p{
+    font-size: 20px;
+    text-shadow:
+    2px  2px 0 #000,
+   -1px -1px 0 #000,  
+    1px -1px 0 #000,
+   -1px  1px 0 #000,
+    1px  1px 0 #000;
+    padding: 0;
+    font-weight: 500;
+  }
+
+  .carousel-control-prev-icon{
+    background-color: rgba(143, 143, 143,0.8);
+    border-radius: 5px;
+  }
+  .carousel-control-next-icon{
+    background-color: rgba(143, 143, 143,0.8);
+    border-radius: 5px;
+  }
+  .carousel-indicators > button{
+    border-radius: 20px;
+    line-height: 100px;
+    height: 100px;
+    background-color: #000;
+  }
+.cozunurluk{
+    visibility: visible;
+    position: fixed;
+    top: 40%;
+    right: 50%;
+    z-index: 9999999;
+    color: #fff;
+    background-color: rgba(147, 142, 142,0.3);
+}
+
+footer{
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 20px;
+    /*border: 1px solid;*/
+    color: #834d9b;
+}
+.fixed{
+    position: fixed;
+    top: 1.5%;
+    right: 0%;
+}
+.fixed img{
+    height: 200px;
+}
+
+@media(max-width:700px){
+    .fixed img{
+        display: none;
+    }
+    .tab-content > .tab-pane{
+        min-width: 300px !important;
+    }
+    .contact > div{
+        min-width: 300px;
+        margin: 0 10px !important;
+    }
+    .location{
+        width: 300px !important;
+    }
+    .footer{
+        width: 300px !important;
+    }
+}
+
+.nav-tabs{
+    background-color: #e2e2e2;
+    border-radius: 10px 10px 0px 0px;
+}
+.nav-tabs>button{
+    color: #834d9b;
+    font-weight: 500;
+}
+
+.nav-tabs>button:hover{
+    color: #000;
+    background-color: #fff;
+}
+
+#nav-home,#nav-profile,#nav-contact{
+    position: absolute;
+}
+
+/*--------------contact specs start---------*/
+
+.contact h1{
+	color: #834d9b;
+}
+.contact button{
+	background-color: #834d9b;
+    width: 100%;
+    min-width: 100px;
+    margin: auto;
+}
+.contact h3{
+    color: #834d9b;
+}
+
+.location{
+    width: 50%;
+    margin: auto;
+    padding: 80px 0;
+}
+
+.location iframe{
+    width: 100%;
+}
+
+.location p, i{
+	color: #834d9b;
+    transition: all 0.3s ease;
+}
+.location i{
+    font-size: 30px;
+    margin-right: 8px;
+    font-size: 25px;
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    padding-top: 7px;
+}
+
+.footer button{
+    background-color: #834d9b;
+}
+
+hr{
+    height: 12px;
+    box-shadow: inset 0 12px 12px -12px rgba(0,0,0,0.5);
+    margin: 2% 12.5%;
+}
+
+.social li{
+    font-size: 30px;
+}
+
+/*--------------card specs start---------*/
+
+.card i{
+    visibility: hidden;
+    opacity: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+}
+.card a{
+    font-weight: 700;
+}
+.card{
+    border-radius: 20px;
+    transition: 0.2s ease;
+    cursor: pointer;
+}
+.card:hover{
+    box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.6);
+}
+.card:hover i{
+    visibility:visible;
+    opacity: 1;
+}
+.card .btn-primary {
+    background-color: #fff;
+    color: #834d9b;
+    border: 2px solid #834d9b;
+}
+.card .btn-primary:hover{
+    background-color: #834d9b;
+    color: #fff;
+    border: 2px solid #834d9b;
+}
+
+.contact button, .bulten button{
+    background-color: #834d9b;
+    color: #fff;
+    border: 2px solid #834d9b;
+}
+.contact button:hover, .bulten button:hover{
+    background-color: #5b0182;
+    color: #fff;
+    border: 2px solid #834d9b;
+}
+.bulten i{
+    transition: all 0.3s ease;
+}
+.bulten i:hover, .location i:hover{
+    transform: translateY(-10px);
+}
